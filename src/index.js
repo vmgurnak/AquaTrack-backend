@@ -1,3 +1,7 @@
-const message = 'Hello world';
+import startServer from './server.js';
 
-console.log(message);
+const bootstrap = () => {
+  startServer();
+};
+
+bootstrap();
